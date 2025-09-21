@@ -1,42 +1,53 @@
 body {
-  background-color:#232830;
+  background-color: #232830;
   color: white;
+  font-family: Poppins;
 }
 
 nav {
   display: flex;
   align-items: center;
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 
-h1 {
+p {
   width: 80%;
   margin-left: 2rem;
 }
 
 .navbar {
   width: 20%;
+  font-size: 24px;
 }
 
 .hero-text {
   font-style: italic;
-  font-size: 40px;
-  color: rgb(144, 75, 87);
+  font-family: Recursive;
+  font-size: 71px;
+  font-weight: 400;
+  color:#FF7575;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-bottom: 0;
 }
 
 .section1 {
-  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  flex-direction: column;
 }
 
 .hero-para {
-  font-weight: 900;
+  font-weight: 400;
+  font-size: 29px;
   color: white;
   display: flex;
   justify-content: center;
@@ -71,10 +82,8 @@ h1 {
 
 .grid-item {
   width: 33%;
-  
 }
 
 .footer {
   display: flex;
 }
-
