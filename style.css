@@ -15,9 +15,9 @@ nav {
   letter-spacing: 0%;
 }
 
-p {
+nav p {
   width: 80%;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .navbar {
@@ -56,20 +56,48 @@ p {
 }
 
 .section2 {
-  height: 300px;
+  height: 65px;
+  width: 100%;
 }
 
 .section-content {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
 }
 
-.section-content a {
-  text-decoration: none;
-  color: white;
-  font-size: 22px;
+.section-content p {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.categoryListing {
+  font-family: recursive;
   font-style: italic;
+  color:#909090;
+  text-decoration: none;
+  font-size: 27px;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  width: 70%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.paginationItem {
+  color: white;
+  text-decoration: none;
+  font-family: recursive;
+  font-style: italic;
+  color:#909090;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 10%;
 }
 
 .section3 div a {
@@ -86,4 +114,28 @@ p {
 
 .footer {
   display: flex;
+  margin-top: 2rem;
+}
+
+footer h1 {
+  width: 80%;
+}
+
+footer button {
+background-color: #4699E0;
+margin: 0;
+padding: 0;
+height: 50px;
+border-radius: 10px;
+border: none;
+display: flex;
+justify-content: center;
+}
+
+.footerButton {
+  font-style: Semibold;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 19px;
+  font-family: recursive, source sans pro;
 }
